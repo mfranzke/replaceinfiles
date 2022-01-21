@@ -21,7 +21,7 @@ We're happy to accept PRs and suggestions, but be aware that this project is no 
 **Install**
 
 ```sh
-npm i replaceinfiles
+npm i @mfranzke/replaceinfiles
 ```
 
 **Create or generate a replace map**, save in a file or pipe to stdin
