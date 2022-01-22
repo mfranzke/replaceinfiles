@@ -1,4 +1,6 @@
-# replace-in-files [![Build Status](https://travis-ci.org/songkick/replaceinfiles.svg)](https://travis-ci.org/songkick/replaceinfiles)
+# replace-in-files <!-- [![Build Status](https://travis-ci.org/songkick/replaceinfiles.svg)](https://travis-ci.org/songkick/replaceinfiles) -->
+
+Please note that this is a fork of the [@songkick/replaceinfiles](https://www.npmjs.com/package/@songkick/replaceinfiles) package, which should mainly fix a problem encountered on pure npm ecosystems (one of its subdependencies referenced a package from github.com directly). So all kudos go to the @songkick folks!
 
 Utility to replace a map of strings in many files
 
@@ -19,7 +21,7 @@ We're happy to accept PRs and suggestions, but be aware that this project is no 
 **Install**
 
 ```sh
-npm i replaceinfiles
+npm i @mfranzke/replaceinfiles
 ```
 
 **Create or generate a replace map**, save in a file or pipe to stdin

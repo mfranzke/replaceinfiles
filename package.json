@@ -1,6 +1,6 @@
 {
-  "name": "@songkick/replaceinfiles",
-  "version": "1.1.6",
+  "name": "@mfranzke/replaceinfiles",
+  "version": "1.1.7",
   "description": "Utility to replace a map of strings in many files",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Songkick/replaceinfiles.git"
+    "url": "git+https://github.com/mfranzke/replaceinfiles.git"
   },
   "keywords": [
     "cli",
@@ -21,12 +21,12 @@
   "author": "Arnaud Rinquin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Songkick/replaceinfiles/issues"
+    "url": "https://github.com/mfranzke/replaceinfiles/issues"
   },
-  "homepage": "https://github.com/Songkick/replaceinfiles#readme",
+  "homepage": "https://github.com/mfranzke/replaceinfiles#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "digest-stream": "^0.2.2",
+    "digest-stream": "^2.0.0",
     "glob": "^6.0.1",
     "replacestream": "^4.0.0",
     "stream-cache": "0.0.2"
@@ -38,5 +38,8 @@
   "directories": {
     "example": "examples",
     "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
