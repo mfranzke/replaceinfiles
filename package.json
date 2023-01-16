@@ -32,7 +32,7 @@
     "stream-cache": "0.0.2"
   },
   "devDependencies": {
-    "rimraf": "^2.4.4",
+    "rimraf": "^4.0.7",
     "tap": "^2.3.1"
   },
   "directories": {
