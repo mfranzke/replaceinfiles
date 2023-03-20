@@ -27,7 +27,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "digest-stream": "^2.0.0",
-    "glob": "^6.0.1",
+    "glob": "^9.3.0",
     "replacestream": "^4.0.0",
     "stream-cache": "0.0.2"
   },
